@@ -155,13 +155,25 @@
           <fieldset>
             <div class="form-group text-center">
               <legend class="user_data">Datos Personales</legend>
-              <input type="text" id="nombre" name="Nombre" placeholder="Nombre Completo">
-              <input type="text" id="email" name="email" placeholder="Correo Electrónico">
+              <input type="text" id="nombre" name="Nombre" placeholder="Nombre Completo" class="form-control input-element">
+              <input type="email" id="email" name="email" placeholder="Correo Electrónico" class="form-control input-element">
+              <input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="form-control input-element">
+              <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" class="form-control input-element">
             </div>
           </fieldset>
           <fieldset>
-            <div class="form-group text-center">
+            <div class="form-group text-center user_data">
               <legend class="user_data">Elige tus categorías favoritas</legend>
+              <input type="checkbox" id="terror" name="terror" class="label-class" value="">
+              <label for="terror">Terror</label>
+              <input type="checkbox" id="comedia" name="comedia" class="label-class" value="">
+              <label for="comedia">Comedia</label>
+              <input type="checkbox" id="suspenso" name="suspenso" class="label-class" value="">
+              <label for="suspenso">Suspenso</label>
+              <input type="checkbox" id="accion" name="accion" class="label-class" value="">
+              <label for="accion">Acción</label>
+              <input type="checkbox" id="infantil" name="infantil" class="label-class" value="">
+              <label for="infantil">Infantil</label>
             </div>
           </fieldset>
           <fieldset>
