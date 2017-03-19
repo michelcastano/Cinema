@@ -108,6 +108,12 @@
   float:none;
 }
 
+.user_data{
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
 @media (max-width: 770px) {
   h2 {
     font-size: 22px;
